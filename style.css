@@ -1,0 +1,135 @@
+@import url('https://fonts.googleapis.com/css2?family=Raleway:wght@100&display=swap');
+.banner {
+    width: 170px;
+    padding: 30px;
+    border-style: dashed solid;
+    border-radius: 10vh;
+}
+
+body {
+    font-family: 'Raleway', sans-serif;
+    padding: 2px;
+    padding-right: 2px;
+    background-color: rgb(86, 215, 255);
+    width: auto;
+    height: auto;
+    background-image: radial-gradient(farthest-corner at 45px 45px, #FF0000 0%, #0000FF 100%);
+}
+
+.caja {
+    width: 255px;
+    position: center;
+    margin: auto;
+}
+
+.contenedor {
+    justify-content: center;
+    width: 250px;
+    border-style: solid;
+    border-width: 1px;
+    display: grid;
+    margin-left: 5px;
+    margin-right: 1px;
+    display: inline-block;
+    /*Para que pueda alinear los botones uno al lado del otro*/
+    background-color: white;
+    opacity: 1;
+    background-image: radial-gradient(farthest-corner at 405px 45px, #430cdb 0%, #110e0e 100%);
+}
+
+#resultadp {
+    text-align: center;
+    background-color: rgb(53, 99, 60);
+    color: rgb(255, 255, 255);
+    font-weight: bold;
+    background-image: radial-gradient(farthest-corner at 405px 45px, #430cdb 0%, #110e0e 100%);
+}
+
+input {
+    margin-left: 40px;
+    display: flex;
+    /* Para que se puede manipular libremente y se pueda centrar*/
+    height: 20px;
+    align-content: center;
+    width: 150px;
+    padding: 5px;
+    background-image: radial-gradient(farthest-corner at 405px 45px, #430cdb 0%, #110e0e 100%);
+    color: #FFFF;
+}
+
+button {
+    margin-left: 15px;
+    font-size: 11px;
+    font-family: Verdana, Helvetica;
+    font-weight: bold;
+    color: white;
+    background: #638cb5;
+    border: 1px;
+    width: 100px;
+    height: 30px;
+    background-image: radial-gradient(farthest-corner at 405px 45px, #220969 0%, #110e0e 100%);
+}
+
+button:hover {
+    text-shadow: 1px 1px 15px #000000;
+}
+
+h3 {
+    margin: 30px;
+    color: white;
+}
+
+table {
+    color: white;
+    font-size: 9px;
+}
+
+.resultado {
+    text-align: center;
+    background-color: rgb(53, 99, 60);
+    color: rgb(255, 255, 255);
+    font-weight: bold;
+    background-image: radial-gradient(farthest-corner at 405px 45px, #430cdb 0%, #110e0e 100%);
+}
+
+.color {
+    background-image: radial-gradient(farthest-corner at 405px 45px, #220969 0%, #110e0e 100%);
+    color: rgb(255, 255, 255);
+    background-color: black;
+}
+
+select {
+    margin: auto;
+    width: 170px;
+    position: absolute;
+    padding: 5px;
+    display: flex;
+    margin-left: 40px;
+}
+
+form {
+    background-image: radial-gradient(farthest-corner at 405px 45px, #2b00a19f 0%, #062d58 100%);
+    color: rgb(255, 255, 255);
+    background-color: black;
+    margin: auto;
+    text-align: left;
+    width: 250px;
+    padding: auto;
+    margin-bottom: 1px;
+    padding-bottom: 20px;
+}
+
+.input2 {
+    margin-left: auto;
+    display: inline-flex;
+    /* Para que se puede manipular libremente y se pueda centrar*/
+    height: 12px;
+    width: 150px;
+    padding: 10px;
+    background-image: radial-gradient(farthest-corner at 405px 45px, #430cdb 0%, #110e0e 100%);
+    color: #FFFF;
+}
+
+li {
+    list-style: none;
+}

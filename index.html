@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <link rel="" href="/img/js.png">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+
+
+    <title>CalculApp</title>
+</head>
+
+<body>
+    <center>
+        <h1 class="banner">CalculApp</h1>
+    </center>
+    <div class="caja">
+        <h1>Funciones realizadas con Javascript</h1>
+        <div class="contenedor">
+            <h3>Operaciones básicas</h3>
+            <input type="number" required placeholder="Ingresa un valor" id="nro1"><br>
+            <input type="number" required placeholder="Ingresa un valor" id="nro2"><br><br>
+
+            <button onclick="Suma();">Sumar</button>
+            <button onclick="Resta();">Restar</button>
+            <button onclick="Multi();">Multiplicar</button>
+            <button onclick="Div();">Dividir</button>
+            <h3 id="resultadp"></h3>
+
+        </div>
+        <div class="contenedor">
+            <h3>Calcular perìmetro</h3>
+            <input type="number" required placeholder="Ingresa la medida de un lado" id="nrop">
+            <br>
+            <select name="tipo" id="tipo" onchange="perimetro();" class="color">
+                <option selected disabled="true">Selecciona el tipo</option>
+                <option value="4" id="s1">Cuadrado</option>
+                <option value="3" id="22">Triángulo</option>
+                <option value="6" id="s3">Hexágono</option>
+                <option value="8" id="s4">Octágono</option>
+            </select>
+            <br>
+            <h3 id="r_perimetro" class="resultado"></h3>
+        </div>
+        <div class="contenedor">
+            <h3>Calcular Área</h3>
+            <select name="tipoArea" id="tipoArea" onchange="area();" class="color">
+                <option selected disabled="true" >Selecciona el tipo</option>
+                <option value="1" id="">Cuadrado</option>
+                <option value="2" id="">Triángulo</option>
+                <option value="3" id="">Rectángulo</option>
+                <option value="4" id="">Círculo</option>
+            </select>
+            <br>
+            <h3 id="r_area" class="resultado"></h3>
+        </div>
+        <div class="contenedor">
+            <h3>Acerca de tí</h3>
+            <form>
+                <ui>
+                    <li> <input type="text" placeholder="Ingresa tu nombre" id="nombre"></li>
+                    <br>
+                    <li><input type="checkbox" class="input2" id="m" onclick="uncheck();"><label>masculino</li><br>
+                    <li><input type="checkbox" id="f" class="input2" onclick="uncheck();">femenino</li>
+                    <br><input type="number" placeholder="¿Edad?" id="edad"><br>
+                    <select name="actitud" id="actitud" class="color">
+                        <option selected disabled>tus características</option>
+                        <option value="viciar">Viciar</option>
+                        <option value="dormir">Dormir</option>
+                        <option value="comer">Comer</option>
+                        <option value="meditar">Meditar</option>
+                    </select>
+                    <br><br><p class="color">Fecha de nacimiento</p>
+                <li><input type="date" name="" id="nacimiento"></li>
+                </ui>
+            </form><br>
+                        <button onclick="info();">Ver info</button>
+    
+        </div>
+    </div>
+    <script src="funtions.js"></script>
+</body>
+
+</html>
